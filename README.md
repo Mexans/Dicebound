@@ -1,46 +1,33 @@
-<!-- ===================================================== -->
-<!-- 🎲 DICEBOUND PROTOTYPE - README PRO ET VISUEL -->
-<!-- ===================================================== -->
-
-<div align="center">
-
 # 🎲 DICEBOUND
-### *Prototype de jeu Python inspiré du Yams et du Roguelike*
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![Pygame](https://img.shields.io/badge/Pygame-2.6-green?logo=pygame)
-![VSCode](https://img.shields.io/badge/Editor-VS%20Code-007ACC?logo=visualstudiocode)
-![License](https://img.shields.io/badge/Status-Prototype-yellow)
+![Dicebound Preview](screenshot.png)
+
+**Prototype de jeu Python inspiré du Yams et du Roguelike**  
+**Technologies : Python | Pygame | VSCode**  
+**Licence : MIT / libre**
 
 ---
 
-</div>
-
 ## 🧩 À propos du projet
 
-**Dicebound** est un prototype de jeu développé en **Python** avec **Pygame**,  
-inspiré des mécaniques du *Yams* et de la *progression roguelike*.  
+**Dicebound** est un prototype développé en Python avec Pygame, inspiré du **Yams** et des mécaniques **roguelike**.  
+Le joueur lance plusieurs dés aux propriétés uniques (valeur, couleur, bonus…) et doit composer avec le hasard pour obtenir le meilleur score possible.
 
-🎯 Le concept :  
-Lancer plusieurs dés aux propriétés uniques (valeur, couleur, bonus…)  
-et composer avec la chance pour atteindre le meilleur score possible.  
-
-Ce projet est avant tout un **exercice d’apprentissage pratique**,  
-axé sur la compréhension de la structure d’un moteur de jeu et de la logique événementielle.
+Ce projet est un exercice d’apprentissage pratique, axé sur la **structure d’un moteur de jeu**, la **logique événementielle** et la **programmation orientée objet**.
 
 ---
 
 ## 🧠 Objectifs d’apprentissage
 
-> Projet réalisé dans le cadre de mon apprentissage du développement Python.  
-> L’IA a servi d’**assistant pédagogique**, pas de générateur :  
-> chaque portion de code a été **comprise, testée et ajustée manuellement**.
+Ce projet a été réalisé dans le cadre de l’apprentissage du développement Python.  
+L’IA (ChatGPT) a servi d’**assistant pédagogique**, chaque portion de code a été comprise, testée et ajustée manuellement.
 
-### 💡 Compétences mises en pratique :
-- Structure d’un projet modulaire (`main.py`, `dice.py`)  
-- Programmation orientée objet (classe `Die`)  
-- Gestion d’une boucle de jeu avec Pygame  
-- Capture d’événements clavier et affichage graphique  
+**Compétences mises en pratique :**
+- Structure modulaire (`main.py`, `dice.py`)
+- Programmation orientée objet (`classe Die`)
+- Gestion d’une boucle de jeu avec Pygame
+- Capture d’événements clavier et souris
+- Affichage graphique des dés et textes
 - Débogage et itérations d’apprentissage
 
 ---
@@ -48,53 +35,62 @@ axé sur la compréhension de la structure d’un moteur de jeu et de la logique
 ## 🕹️ Fonctionnalités actuelles
 
 | Fonction | Description |
-|-----------|-------------|
-| 🎲 Lancer les dés | Appuie sur **Espace** pour lancer les 5 dés |
+|----------|-------------|
+| 🎲 Lancer les dés | Appuie sur Espace pour lancer les 5 dés |
 | 📊 Calcul du score | Le total s’affiche dynamiquement à l’écran |
-| 🧱 Interface graphique | Affichage des dés et du texte avec Pygame |
+| 💰 Gestion de l’argent | Le score est converti en argent et cumulé |
+| 🧱 Interface graphique | Affichage des dés et textes avec Pygame |
 | 🧩 Architecture claire | Code séparé entre logique (`dice.py`) et exécution (`main.py`) |
+| 🖱️ Interaction à la souris | Cliquer sur un dé pour le garder ou relancer |
+
+---
+
+### 🎲 Dés spéciaux et effets
+
+- 🔴 Rouge → multiplicateur ×2  
+- 🔵 Bleu → bonus +50 points  
+- 🟡 Doré → jackpot aléatoire (+100 à +200)  
+- 🟢 Vert → garde automatique  
+- 🟣 Violet → double la valeur du **prochain lancer**  
+- ⚫ Noir → relance un autre dé aléatoire  
+- 🌈 Arc-en-ciel → jackpot aléatoire très élevé  
 
 ---
 
 ## 🧰 Stack technique
 
 | Technologie | Description |
-|--------------|-------------|
-| 🐍 **Python 3.11** | Langage principal |
-| 🎮 **Pygame 2.6** | Moteur 2D et gestion des événements |
-| 🧠 **IA (ChatGPT)** | Support pédagogique et assistance technique |
-| 🖥️ **Visual Studio Code** | Environnement de développement |
-| 🪟 **Windows 11** | Système utilisé |
+|------------|-------------|
+| 🐍 Python 3.11 | Langage principal |
+| 🎮 Pygame 2.6 | Moteur 2D et gestion des événements |
+| 🧠 IA (ChatGPT) | Support pédagogique et assistance technique |
+| 🖥️ Visual Studio Code | Environnement de développement |
+| 🪟 Windows 11 | Système utilisé |
 
 ---
 
 ## 🚀 Améliorations prévues
 
-- 🖱️ Interaction à la souris : cliquer sur un dé pour le garder  
-- 🎨 Dés de couleur et multiplicateurs de score  
+- 🎨 Dés de couleur avec multiplicateurs  
 - 💰 Jackpot et systèmes de bonus  
 - 🔊 Effets visuels et sonores  
-- 🏁 Écran de menu et progression de partie type roguelike  
+- 🏁 Écran de menu et progression type roguelike  
+- 📈 Amélioration de la stratégie et de l’interaction joueur  
 
 ---
 
 ## 💬 À propos de l’auteur
 
-👤 **Maxence Labrune**  
+**Maxence Labrune**  
 Apprenant développeur Python / Game Dev débutant  
 
-📧 Maxencelabrune@outlook.fr 
-🌐 
+📧 `Maxencelabrune@outlook.fr`  
+🌐  
 
 > “Je considère ce prototype comme mon premier pas concret dans le développement de jeux vidéo.  
 > Il m’a appris à comprendre le code, pas seulement à le reproduire.”
 
 ---
 
-<div align="center">
+⭐ Si le projet t’intéresse, n’hésite pas à **le forker** ou à lui **laisser une étoile** !  
 
-### ⭐ Si le projet t’intéresse, n’hésite pas à le forker ou à lui laisser une étoile !
-
-![GitHub stars](https://img.shields.io/github/stars/tonpseudo/Dicebound?style=social)
-
-</div>
