@@ -83,7 +83,7 @@ axé sur la compréhension de la structure d’un moteur de jeu et de la logique
 👤 **Maxence Labrune**  
 Apprenant développeur Python / Game Dev débutant  
 
-📧 Maxencelabrune@outlook.com	 
+📧 Maxencelabrune@outlook.fr 
 🌐 
 
 > “Je considère ce prototype comme mon premier pas concret dans le développement de jeux vidéo.  
