@@ -15,11 +15,11 @@ font = pygame.font.Font(None, 36)
 
 # 🎲 Création des dés
 dice = [
-    Die(100, 150, die_type="normal"),   # dé normal
-    Die(190, 150, die_type="rouge"),    # multiplicateur x2
-    Die(280, 150, die_type="bleu"),     # bonus +50
-    Die(370, 150, die_type="doré"),     # jackpot
-    Die(460, 150, die_type="normal")    # dé normal
+   Die(100, 150, die_type="normal"),
+    Die(190, 150, die_type="rouge"),
+    Die(280, 150, die_type="vert"),
+    Die(370, 150, die_type="violet"),
+    Die(460, 150, die_type="arc_en_ciel")
 ]
 total_score = 0
 
@@ -82,6 +82,11 @@ while running:
 
     round_text = font.render(f"Manche : {round_number}", True, WHITE)
     screen.blit(round_text, (20, 20))
+    effects_text = font.render(
+    f"Effets actifs : {' | '.join([die.type for die in dice if die.type != 'normal'])}",
+    True, (255, 255, 0)
+)
+    screen.blit(effects_text, (20, 80))
 
     # 🔄 Mise à jour de l'écran
     pygame.display.flip()
